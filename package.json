@@ -13,7 +13,6 @@
     "@react-navigation/native-stack": "^6.9.22",
     "react": "18.2.0",
     "react-native": "0.73.5",
-    "react-native-image-picker": "^7.1.0",
     "react-native-svg": "13.4.0",
     "react-native-video": "^5.2.1"
   },
