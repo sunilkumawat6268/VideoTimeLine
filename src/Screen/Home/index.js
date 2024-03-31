@@ -6,6 +6,11 @@ const Home = () => {
   return (
     <View style={styles.container}>
       <Text>Hello in the world in Home Screen</Text>
+      <Text>Hello in the world in Home Screen</Text>
+      <Text>Hello in the world in Home Screen</Text>
+      <Text>Hello in the world in Home Screen</Text>
+      <Text>Hello in the world in Home Screen</Text>
+      <Text>Hello in the world in Home Screen</Text>
     </View>
   );
 };
