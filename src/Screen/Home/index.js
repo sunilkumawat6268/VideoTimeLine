@@ -9,8 +9,6 @@ const Home = () => {
       <Text>Hello in the world in Home Screen</Text>
       <Text>Hello in the world in Home Screen</Text>
       <Text>Hello in the world in Home Screen</Text>
-      <Text>Hello in the world in Home Screen</Text>
-      <Text>Hello in the world in Home Screen</Text>
     </View>
   );
 };
