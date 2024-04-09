@@ -7,11 +7,12 @@ const Profile = () => {
   return (
     <View style={styles.container}>
       <Text>Profile</Text>
+      <Text>Profile</Text>
+      <Text>Profile</Text>
     </View>
   );
 };
 
-// define your styles
 const styles = StyleSheet.create({
   container: {
     flex: 1,
