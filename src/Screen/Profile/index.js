@@ -9,6 +9,12 @@ const Profile = () => {
       <Text>Profile</Text>
       <Text>Profile</Text>
       <Text>Profile</Text>
+      <Text>Profile</Text>
+      <Text>Profile</Text>
+      <Text>Profile</Text>
+      <Text>Profile</Text>
+      <Text>Profile</Text>
+      <Text>Profile</Text>
     </View>
   );
 };
