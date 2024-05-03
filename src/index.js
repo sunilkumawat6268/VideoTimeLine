@@ -24,10 +24,6 @@ const Root = () => {
         flex: 1,
         backgroundColor: 'black',
       }}>
-      {/* <FlatList
-      videoData
-      
-       /> */}
       <TouchableOpacity
         onPress={handleSelectVideo}
         style={{
