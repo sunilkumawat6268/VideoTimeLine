@@ -1,6 +1,8 @@
+import {NavigationContainer} from '@react-navigation/native';
 import React, {useState} from 'react';
 import {View, Text, TouchableOpacity, Image, FlatList} from 'react-native';
 import {launchImageLibrary} from 'react-native-image-picker';
+import Navigation from './Navigation';
 
 const Root = () => {
   const [state, setState] = useState({
@@ -39,6 +41,9 @@ const Root = () => {
           }}
         />
       </TouchableOpacity>
+      <NavigationContainer>
+        <Navigation />
+      </NavigationContainer>
     </View>
   );
 };
