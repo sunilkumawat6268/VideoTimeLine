@@ -26,6 +26,21 @@ const Root = () => {
         flex: 1,
         backgroundColor: 'black',
       }}>
+      <TouchableOpacity
+        onPress={handleSelectVideo}
+        style={{
+          position: 'absolute',
+          bottom: 20,
+          alignSelf: 'center',
+        }}>
+        <Image
+          source={require('./assets/Images/plus.png')}
+          style={{
+            width: 60,
+            height: 60,
+          }}
+        />
+      </TouchableOpacity>
       <NavigationContainer>
         <Navigation />
       </NavigationContainer>
