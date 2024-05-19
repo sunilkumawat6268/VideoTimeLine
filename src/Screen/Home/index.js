@@ -1,14 +1,15 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, Button} from 'react-native';
 import styles from './styles';
 
-const Home = () => {
+const Home = ({navigation}) => {
+  const handleGoogleLogin = () => {
+    navigation.navigate('GoogleLogin');
+  };
+
   return (
     <View style={styles.container}>
-      <Text>Hello in the world in Home Screen</Text>
-      <Text>Hello in the world in Home Screen</Text>
-      <Text>Hello in the world in Home Screen</Text>
-      <Text>Hello in the world in Home Screen</Text>
+      <Button title="Google Login" onPress={handleGoogleLogin} />
     </View>
   );
 };
