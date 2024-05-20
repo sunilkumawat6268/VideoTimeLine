@@ -7,9 +7,18 @@ const Home = ({navigation}) => {
     navigation.navigate('GoogleLogin');
   };
 
+  const handleQRCodeScanner = () => {
+    navigation.navigate('QRCodeScanner');
+  };
+
   return (
     <View style={styles.container}>
-      <Button title="Google Login" onPress={handleGoogleLogin} />
+      <View style={styles.buttonView}>
+        <Button title="Google Login" onPress={handleGoogleLogin} />
+      </View>
+      <View style={styles.buttonView}>
+        <Button title="QR Code Scanner" onPress={handleQRCodeScanner} />
+      </View>
     </View>
   );
 };
