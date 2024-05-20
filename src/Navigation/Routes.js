@@ -1,5 +1,6 @@
 import Home from '../Screen/Home';
 import GoogleLogin from '../Screen/GoogleLogin';
+import QRCodeScanner from '../Screen/QRCodeScanner';
 
 const Routes = [
   {
@@ -9,6 +10,10 @@ const Routes = [
   {
     name: 'GoogleLogin',
     component: GoogleLogin,
+  },
+  {
+    name: 'QRCodeScanner',
+    component: QRCodeScanner,
   },
 ];
 
