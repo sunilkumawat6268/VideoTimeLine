@@ -8,6 +8,9 @@ const styles = StyleSheet.create({
     alignContent: 'center',
     alignSelf: 'center'
   },
+  buttonView:{
+    marginBottom:10
+  }
 });
 
 export default styles;
