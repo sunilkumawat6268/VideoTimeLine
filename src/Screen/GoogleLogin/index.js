@@ -14,17 +14,6 @@ const GoogleLogin = () => {
     });
   }, []);
   const handleGoogleSignIn = async () => {
-    console.log('111111');
-    // await GoogleSignin.signOut();
-    // try {
-    //   await GoogleSignin.hasPlayServices();
-    //   const userInfo = ({idToken} = await GoogleSignin.signIn());
-    //   console.log('🚀 ~ handleGoogleSignIn ~ userInfo:', userInfo);
-    //   return userInfo;
-    // } catch (error) {
-    //   console.log('🚀 ~ handleGoogleSignIn ~ error:', error);
-    //   return null;
-    // }
     try {
       await GoogleSignin.hasPlayServices();
       const userInfo = await GoogleSignin.signIn();

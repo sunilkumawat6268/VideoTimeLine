@@ -5,10 +5,7 @@ import Navigation from './Navigation';
 
 const Root = () => {
   return (
-    <View
-      style={{
-        flex: 1,
-      }}>
+    <View style={{flex: 1}}>
       <NavigationContainer>
         <Navigation />
       </NavigationContainer>
